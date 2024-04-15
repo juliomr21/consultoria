@@ -16,17 +16,15 @@ function show_duvida(id_d){
 }
 
 window.onscroll = function () {
+  
   if (window.scrollY <= 550) {
-    // document.getElementsBy('btn-whatsapp').style.display = 'none';
-    document.getElementById('btn-whatsapp').style.display = 'none';
+        document.getElementById('btn-whatsapp').style.display = 'none';
   
   }else
   {
     document.getElementById('btn-whatsapp').style.display = 'block';
   };
-   
-  console.log(window.scrollY);
-  // console.log(document.getElementsByClassName('btn-whatsapp').style.display)
-}
+ 
+  }
 
 

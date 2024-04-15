@@ -45,7 +45,7 @@ img {
     width: 48px;    
     position: fixed;
     bottom: 40px;
-    right: 2%;
+    right: 3%;
     display: none;
     cursor: pointer;
     z-index: 2;
@@ -55,6 +55,37 @@ img {
 }
 .btn-whatsapp:hover{
     transform: translateY(-2px);
+}
+.bg-whatsapp{
+    background: #e8f0e6;
+    color: #36a858;
+    border: solid 1px #36a858;
+    border-radius: 8px;
+    font-size: larger;
+    padding: 5px 10px;
+    /* border: transparent; */
+    cursor: pointer;
+    font-weight: 500;
+    width: 320px;
+}
+.bg-whatsapp:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-2px);
+}
+.logo-w{
+    width: 32px;
+    height: 32px;
+}
+.whatsapp-style{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    h2{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 27px;
+    }
+
 }
 
 .home-section {
@@ -479,7 +510,7 @@ img {
     }
     .text-plano{
         margin-bottom: 6px;
-  margin-top: 10px;
+  margin-top: 16px;
     }
     .pergunta{
         margin-top: 8px;
@@ -526,6 +557,9 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 100%;
+    }
+    .bg-whatsapp{
         width: 100%;
     }
     .card-ventage{
