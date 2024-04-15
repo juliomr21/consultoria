@@ -45,7 +45,7 @@ img {
     width: 48px;    
     position: fixed;
     bottom: 40px;
-    right: 40px;
+    right: 2%;
     display: none;
     cursor: pointer;
     z-index: 2;
