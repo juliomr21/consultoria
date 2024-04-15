@@ -130,11 +130,11 @@ img {
     height: auto;
 }
 
-.img-portada-movil {
+/* .img-portada-movil {
     width: 100%;
     display: none;
     background-image: url(assets/principal.png);
-}
+} */
 
 .text-mediumblue {
     color: #c3bcf0;
@@ -420,7 +420,9 @@ img {
     .cover{
         width: 100%;
     }
-
+    .text-principal{
+        padding: 2rem 12px;
+    }
     .card-registro {
         width: 100%;
     }
@@ -514,5 +516,15 @@ img {
         justify-content: center;
         align-items: center;
         width: 100%;
+    }
+    .card-ventage{
+        padding-top: 15px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 39%;
+  h4{
+    font-size: initial;
+  }
     }
 }
