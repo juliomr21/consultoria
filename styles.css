@@ -40,7 +40,22 @@ img {
 .flex {
     display: flex;
 }
+.btn-whatsapp{
+    height: 48px;
+    width: 48px;    
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+    cursor: pointer;
+    z-index: 2;
+    /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); */
 
+
+}
+.btn-whatsapp:hover{
+    transform: translateY(-2px);
+}
 
 .home-section {
     /* background-image: url('assets/principal.png'); */
@@ -104,9 +119,12 @@ img {
     padding: 1rem 6rem;
     border: transparent;
     cursor: pointer;
-
+    
 }
-
+.btn-portada:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+  }
 .img-portada {
     width: 753px;
     height: auto;
