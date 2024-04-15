@@ -8,6 +8,12 @@ function generar_cel() {
   let link_what = ' https://api.whatsapp.com/send?phone=559881921315'; 
   window.open(link_what);
 }
+function show_duvida(id_d){
+  if(document.getElementById('p'+ id_d).style.display == 'none')
+  {document.getElementById('p'+ id_d).style.display = 'block'}
+  else
+  {document.getElementById('p'+ id_d).style.display = 'none'}
+}
 
 window.onscroll = function () {
   if (window.scrollY <= 550) {

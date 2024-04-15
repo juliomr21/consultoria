@@ -64,7 +64,7 @@
         </div>
         
     </div>
-    <section onscroll="scroll_top()">
+    <section>
         <h2 class="text-mediumblue1 text-center">Ventagens de ser consultora</h2>
         <div class="flex automatic-center ventagen-space">
             <div class="card-ventage">
@@ -475,62 +475,65 @@
     <section class="duvidas bg-alice">
         <h2 class="text-center">Dúvidas frequentes</h2>
         <div class="duvidas-info mt-3">
-            <div class="bg-alice duvidas-card">
+            <div class="bg-alice duvidas-card" onclick="show_duvida(1)">
                 <h4 class="pergunta">
                     <strong>O QUE FAZ UMA CONSULTORA A SÓS?</strong>
                 </h4>
-                <h5 class="resposta">
+             
+                    <h5 id="p1"  class="resposta" style="display: none;">
+                        <em>Uma consultora da A Sós tem acesso à revenda dos produtos A Sós, oferecendo orientação e suporte
+                            personalizados soluções voltados para a intimidade e o bem-estar íntimo.</em>
+                    </h5>
+               
+               
+            </div>
+            <div class="bg-blue duvidas-card" onclick="show_duvida(2)">
+                <h4 class="pergunta">
+                    <strong>O QUE FAZ UMA CONSULTORA A SÓS?</strong>
+                </h4>
+                <h5 id="p2" class="resposta" style="display: none;" >
                     <em>Uma consultora da A Sós tem acesso à revenda dos produtos A Sós, oferecendo orientação e suporte
                         personalizados soluções voltados para a intimidade e o bem-estar íntimo.</em>
                 </h5>
             </div>
-            <div class="bg-blue duvidas-card">
-                <h4 class="pergunta">
-                    <strong>O QUE FAZ UMA CONSULTORA A SÓS?</strong>
-                </h4>
-                <h5 class="resposta">
-                    <em>Uma consultora da A Sós tem acesso à revenda dos produtos A Sós, oferecendo orientação e suporte
-                        personalizados soluções voltados para a intimidade e o bem-estar íntimo.</em>
-                </h5>
-            </div>
-           <div  class="bg-alice duvidas-card">
+           <div  class="bg-alice duvidas-card" onclick="show_duvida(3)">
             <h4 class="pergunta">
                 <strong>QUAIS PRODUTOS AS CONSULTORAS A SÓS VENDEM?</strong>
             </h4>
-            <h5 class="resposta">
+            <h5 id="p3" class="resposta" style="display: none;">
                 <em>As consultoras da A Sós oferecem uma ampla gama de produtos, incluindo vibros, lubrificantes, acessórios e uma variedade de produtos para o bem-estar íntimo.</em>
             </h5>
            </div>
-           <div class="bg-blue duvidas-card">
+           <div class="bg-blue duvidas-card" onclick="show_duvida(4)">
             <h4 class="pergunta">
                 <strong>QUAIS OS BENEFÍCIOS DE SER UMA CONSULTORA A SÓS?</strong>
             </h4>
-            <h5 class="resposta">
+            <h5 id="p4" class="resposta" style="display: none;">
                 <em>Os benefícios de ser uma consultora incluem a oportunidade de trabalhar com um produto inovador, flexibilidade de horário, treinamentos especializados, além da possibilidade de ganhos significativos com base nas vendas realizadas.</em>
             </h5>
            </div>
-           <div  class="bg-alice duvidas-card">
+           <div  class="bg-alice duvidas-card" onclick="show_duvida(5)">
             <h4 class="pergunta">
                 <strong>COMO FAÇO PARA ADQUIRIR O KIT INICIAL OU VALE COMPRAS?</strong>
             </h4>
-            <h5 class="resposta">
+            <h5 id="p5" class="resposta" style="display: none;">
                 <em>Para adquirir o kit inicial ou o vale-compras, é necessário entrar em contato com a equipe de especialistas em vendas da A Sós. O kit início é composto pelos produtos da empresa e o voucher é um vale-compras que você utiliza em seu primeiro pedido.</em>
             </h5>
            </div>
-           <div class="bg-blue duvidas-card">
+           <div class="bg-blue duvidas-card" onclick="show_duvida('6')">
             <h4 class="pergunta">
                 <strong>QUAIS AS FORMAS DE PAGAMENTO DO KIT OU VALE COMPRAS?</strong>
             </h4>
-            <h5 class="resposta">
+            <h5 id="p6" class="resposta" style="display: none;" >
                 <em>As formas de pagamento para o kit inicial ou vale compras podem variar e geralmente incluem opções como cartão de crédito, boleto à vista ou pix.
                     O pagamento à vista garante 5% de desconto nos pedidos regulares.</em>
             </h5>
            </div>
-           <div  class="bg-alice duvidas-card">
+           <div  class="bg-alice duvidas-card" onclick="show_duvida('7')">
             <h4 class="pergunta">
                 <strong>QUAL É O MEU PERCENTUAL DE GANHOS?</strong>
             </h4>
-            <h5 class="resposta">
+            <h5 id="p7" class="resposta" style="display: none;">
                 <em>O percentual de ganhos como consultora da A Sós é o maior do mercado e pode chegar a 50% do valor investido.</em>
             </h5>
            </div>

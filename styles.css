@@ -363,6 +363,9 @@ img {
     width: 900px;
     margin-left: auto;
     margin-right: auto;
+    h5{
+        display: none;
+    }
 }
 .only-web{
     display: block;
@@ -371,11 +374,20 @@ img {
     background: rgb(129, 138, 179);
     color: aliceblue
 }
-
+.resposta{
+    display: none;
+}
 .duvidas-card {
     padding: 1px 2rem;
     border-radius: 16px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+}
+.duvidas-card:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+
 }
 
 .text-convide {
