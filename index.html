@@ -11,7 +11,7 @@
 
 <body>
     <div id="btn-whatsapp" class="btn-whatsapp" onclick="generar_cel()">
-<img src="assets/whatsapp.png" alt="">
+        <img src="assets/whatsapp.png" alt="">
     </div>
     <div class="home-section">
         <div class="img-portada-movil">
@@ -27,17 +27,18 @@
                             Transforme sua paixão pela saúde e bem-estar íntimo em uma
                             <span class="text-mediumblue"> carreira gratificante</span>, com a liberdade de
                             <span class="text-mediumblue">criar um negócio independente</span> definindo seu
-                            <span class="text-mediumblue">próprio ritmo</span> e <span class="text-mediumblue">objetivos.</span>
-        
+                            <span class="text-mediumblue">próprio ritmo</span> e <span
+                                class="text-mediumblue">objetivos.</span>
+
                         </h4>
-                        <button class="btn-portada" onclick="generar_cadastro()" >Quero ser uma consultora A sós </button>
+                        <button class="btn-portada" onclick="go_to_section('registro')">Quero ser uma consultora A sós
+                        </button>
                     </div>
-                    
-    
-                  
+
+
                 </div>
             </div>
-            
+
         </div>
         <div class="only-web">
             <div class="cover flex">
@@ -51,20 +52,101 @@
                         Transforme sua paixão pela saúde e bem-estar íntimo em uma
                         <span class="text-mediumblue"> carreira gratificante</span>, com a liberdade de
                         <span class="text-mediumblue">criar um negócio independente</span> definindo seu
-                        <span class="text-mediumblue">próprio ritmo</span> e <span class="text-mediumblue">objetivos.</span>
-    
+                        <span class="text-mediumblue">próprio ritmo</span> e <span
+                            class="text-mediumblue">objetivos.</span>
+
                     </h4>
-    
-                    <button class="btn-portada" onclick="generar_cadastro()">Quero ser uma consultora A sós </button>
+
+                    <button class="btn-portada" onclick="go_to_section('registro')">Quero ser uma consultora A sós </button>
                 </div>
                 <div class="img-portada">
                     <img src="assets/principal.png" alt="">
                 </div>
             </div>
         </div>
-        
+
     </div>
-    <section class="registro">
+    <section>
+        <h2 class="text-mediumblue1 text-center">Ventagens de ser consultora</h2>
+        <div class="flex automatic-center ventagen-space">
+            <div class="card-ventage">
+                <div>
+                    <i class="fa fa-graduation-cap fa-3x" aria-hidden="true"></i>
+
+                </div>
+                <h4>
+                    Treinamento de capacitacao
+                </h4>
+            </div>
+            <div class="card-ventage">
+                <div>
+                    <i class="fa fa-clock-o fa-3x" aria-hidden="true"></i>
+                </div>
+                <h4>
+                    Flexibilidade de horários
+                </h4>
+            </div>
+            <div class="card-ventage">
+                <div>
+                    <i class="fa fa-money fa-3x" aria-hidden="true"></i>
+
+                </div>
+                <h4>
+                    Lucratividade de até 100%
+                </h4>
+            </div>
+            <div class="card-ventage">
+                <div>
+                    <i class="fa fa-comments fa-3x" aria-hidden="true"></i>
+
+                </div>
+                <h4>
+                    Atendimento Personalizado
+                </h4>
+            </div>
+
+            <div class="card-ventage">
+                <div>
+                    <i class="fa fa fa-signal fa-3x" aria-hidden="true"></i>
+                </div>
+                <h4>
+                    Plano de carreira
+                </h4>
+            </div>
+            <div class="card-ventage">
+                <div>
+                    <i class="fa fa-book fa-3x" aria-hidden="true"></i>
+
+                </div>
+                <h4>
+                    Materiais de apoio
+                </h4>
+            </div>
+            <div class="card-ventage">
+                <div>
+                    <i class="fa fa-trophy fa-3x" aria-hidden="true"></i>
+
+                </div>
+                <h4>
+                    Qualidade garantida
+                </h4>
+            </div>
+            <div class="card-ventage">
+                <div>
+                    <i class="fa fa-percent fa-3x" aria-hidden="true"></i>
+
+                </div>
+                <h4>
+                    Descontos exclusivos
+                </h4>
+            </div>
+
+        </div>
+        <!-- <div class="flex automatic-center">
+            <button class="btn-portada btn-gray" onclick="generar_cadastro()" >Quero ser uma consultora A sós </button>
+        </div> -->
+    </section>
+    <section id="registro" class="registro">
         <h2 class="text-center text-mediumblue1">Siga passo a passo para começar</h2>
         <div class="center-info">
             <div class="card-registro">
@@ -119,159 +201,9 @@
 
         </div>
         <div class="flex automatic-center">
-            <button class="btn-portada btn-gray" onclick="generar_cadastro()">Quero ser uma consultora A sós </button>
+            <button class="btn-portada btn-gray" onclick="generar_cadastro()">Cadastre-se <span
+                class="text-mediumblue">Grátis</span> agora!</button>
         </div>
-
-    </section>
-    <section>
-        <h2 class="text-mediumblue1 text-center">Ventagens de ser consultora</h2>
-        <div class="flex automatic-center ventagen-space">
-            <div class="card-ventage">
-                <div>
-                    <i class="fa fa-graduation-cap fa-3x" aria-hidden="true"></i>
-
-                </div>
-                <h4>
-                    Treinamento de capacitacao
-                </h4>
-            </div>
-            <div class="card-ventage">
-                <div>
-                    <i class="fa fa-clock-o fa-3x" aria-hidden="true"></i>
-                </div>
-                <h4>
-                    Flexibilidade de horários
-                </h4>
-            </div>
-            <div class="card-ventage">
-                <div>
-                    <i class="fa fa-money fa-3x" aria-hidden="true"></i>
-
-                </div>
-                <h4>
-                    Lucratividade de até 100%
-                </h4>
-            </div>
-            <div class="card-ventage">
-                <div>
-                    <i class="fa fa-comments fa-3x" aria-hidden="true"></i>
-
-                </div>
-                <h4>
-                    Atendimento Personalizado
-                </h4>
-            </div>
-           
-            <div class="card-ventage">
-                <div>
-                    <i class="fa fa fa-signal fa-3x" aria-hidden="true"></i>
-                </div>
-                <h4>
-                    Plano de carreira
-                </h4>
-            </div>
-            <div class="card-ventage">
-                <div>
-                    <i class="fa fa-book fa-3x" aria-hidden="true"></i>
-
-                </div>
-                <h4>
-                    Materiais de apoio
-                </h4>
-            </div>
-            <div class="card-ventage">
-                <div>
-                    <i class="fa fa-trophy fa-3x" aria-hidden="true"></i>
-
-                </div>
-                <h4>
-                    Qualidade garantida
-                </h4>
-            </div>
-            <div class="card-ventage">
-                <div>
-                    <i class="fa fa-percent fa-3x" aria-hidden="true"></i>
-
-                </div>
-                <h4>
-                    Descontos exclusivos
-                </h4>
-            </div>
-
-        </div>
-        <div class="flex automatic-center">
-            <button class="btn-portada btn-gray" onclick="generar_cadastro()" >Quero ser uma consultora A sós </button>
-        </div>
-
-    </section>
-   
-    <section class="linhas">
-        <h2 class="text-center">Nossas linhas <span class="text-mediumblue">fazem a diferença</span> </h2>
-        <div class="linhas-space">
-            <div class="card-linhas">
-                <div class="img-linhas">
-                    <img src="assets/biosex.png" alt="">
-
-                </div>
-                <div class="text-linhas">
-                    <h4>
-                        A linha de cosméticos sensuais que une prazer e sustentabilidade. Produtos naturais e orgânicos
-                        para uma experiência íntima em sintonia com seu corpo e a natureza.
-                    </h4>
-                </div>
-
-
-            </div>
-            <div class="card-linhas">
-                <div class="img-linhas">
-                    <img src="assets/dermosex.png" alt="">
-
-                </div>
-                <div class="text-linhas">
-                    <h4>
-                        A linha exclusiva de Dermocosméticos da A Sós para cuidados íntimos, promovendo qualidade de
-                        vida e prazer. Fórmulas inovadoras, adaptadas ao clima e pele brasileira.
-                    </h4>
-                </div>
-
-            </div>
-            <div class="card-linhas">
-                <div class="img-linhas">
-                    <img src="assets/prazer.png" alt="">
-
-                </div>
-                <div class="text-linhas">
-                    <h4>
-                        Descubra o prazer supremo com nossos acessórios de alta qualidade. Experimente sensações
-                        intensas e alcance o êxtase com discrição e segurança. Satisfação garantida.
-                    </h4>
-                </div>
-            </div>
-            <div class="card-linhas">
-                <div class="img-linhas">
-                    <img src="assets/sweetbive.png" alt="">
-
-                </div>
-                <div class="text-linhas">
-                    <h4>
-                        A linha divertida e alegre, composta por sugador, varinha mágica e estimulador de silicone. Com
-                        nomes fofos (Xodó, Dengo e Chamego) é a linha ideal para quem busca o primeiro acessório.
-                    </h4>
-                </div>
-            </div>
-
-        </div>
-        <div class="center-linhas">
-            <div>
-                <h2> <span class="text-mediumblue">Escolha seu futuro</span> hoje!</h2>
-            </div>
-
-            <div class="pos-btn">
-                <button class="btn-portada" onclick="generar_cadastro()">Quero ser uma consultora A sós </button>
-            </div>
-
-        </div>
-
 
     </section>
     <section>
@@ -468,12 +400,16 @@
             <div class="mt-3">
                 <h2 class="text-center ">Gostou?</h2>
                 <h5 class="text-center">Que tal cadastrar-se? É simples, rápido e grátis.</h5>
-                <button class="btn-portada" onclick="generar_cadastro()">Cadastre-se <span class="text-mediumblue">Grátis</span> agora! </button>
+                <button class="btn-portada" onclick="generar_cadastro()"> Quero ser uma  <span
+                        class="text-mediumblue">consultora A sós</span> </button>
             </div>
         </div>
-       
-       
+
+
     </section>
+
+  
+
     <section class="duvidas bg-alice">
         <h2 class="text-center">Dúvidas frequentes</h2>
         <div class="duvidas-info mt-3">
@@ -481,66 +417,73 @@
                 <h4 class="pergunta">
                     <strong>O QUE FAZ UMA CONSULTORA A SÓS?</strong>
                 </h4>
-             
-                    <h5 id="p1"  class="resposta" style="display: none;">
-                        <em>Uma consultora da A Sós tem acesso à revenda dos produtos A Sós, oferecendo orientação e suporte
-                            personalizados soluções voltados para a intimidade e o bem-estar íntimo.</em>
-                    </h5>
-               
-               
+
+                <h5 id="p1" class="resposta" style="display: none;">
+                    <em>Uma consultora da A Sós tem acesso à revenda dos produtos A Sós, oferecendo orientação e suporte
+                        personalizados soluções voltados para a intimidade e o bem-estar íntimo.</em>
+                </h5>
+
+
             </div>
             <div class="bg-blue duvidas-card" onclick="show_duvida(2)">
                 <h4 class="pergunta">
                     <strong>O QUE FAZ UMA CONSULTORA A SÓS?</strong>
                 </h4>
-                <h5 id="p2" class="resposta" style="display: none;" >
+                <h5 id="p2" class="resposta" style="display: none;">
                     <em>Uma consultora da A Sós tem acesso à revenda dos produtos A Sós, oferecendo orientação e suporte
                         personalizados soluções voltados para a intimidade e o bem-estar íntimo.</em>
                 </h5>
             </div>
-           <div  class="bg-alice duvidas-card" onclick="show_duvida(3)">
-            <h4 class="pergunta">
-                <strong>QUAIS PRODUTOS AS CONSULTORAS A SÓS VENDEM?</strong>
-            </h4>
-            <h5 id="p3" class="resposta" style="display: none;">
-                <em>As consultoras da A Sós oferecem uma ampla gama de produtos, incluindo vibros, lubrificantes, acessórios e uma variedade de produtos para o bem-estar íntimo.</em>
-            </h5>
-           </div>
-           <div class="bg-blue duvidas-card" onclick="show_duvida(4)">
-            <h4 class="pergunta">
-                <strong>QUAIS OS BENEFÍCIOS DE SER UMA CONSULTORA A SÓS?</strong>
-            </h4>
-            <h5 id="p4" class="resposta" style="display: none;">
-                <em>Os benefícios de ser uma consultora incluem a oportunidade de trabalhar com um produto inovador, flexibilidade de horário, treinamentos especializados, além da possibilidade de ganhos significativos com base nas vendas realizadas.</em>
-            </h5>
-           </div>
-           <div  class="bg-alice duvidas-card" onclick="show_duvida(5)">
-            <h4 class="pergunta">
-                <strong>COMO FAÇO PARA ADQUIRIR O KIT INICIAL OU VALE COMPRAS?</strong>
-            </h4>
-            <h5 id="p5" class="resposta" style="display: none;">
-                <em>Para adquirir o kit inicial ou o vale-compras, é necessário entrar em contato com a equipe de especialistas em vendas da A Sós. O kit início é composto pelos produtos da empresa e o voucher é um vale-compras que você utiliza em seu primeiro pedido.</em>
-            </h5>
-           </div>
-           <div class="bg-blue duvidas-card" onclick="show_duvida('6')">
-            <h4 class="pergunta">
-                <strong>QUAIS AS FORMAS DE PAGAMENTO DO KIT OU VALE COMPRAS?</strong>
-            </h4>
-            <h5 id="p6" class="resposta" style="display: none;" >
-                <em>As formas de pagamento para o kit inicial ou vale compras podem variar e geralmente incluem opções como cartão de crédito, boleto à vista ou pix.
-                    O pagamento à vista garante 5% de desconto nos pedidos regulares.</em>
-            </h5>
-           </div>
-           <div  class="bg-alice duvidas-card" onclick="show_duvida('7')">
-            <h4 class="pergunta">
-                <strong>QUAL É O MEU PERCENTUAL DE GANHOS?</strong>
-            </h4>
-            <h5 id="p7" class="resposta" style="display: none;">
-                <em>O percentual de ganhos como consultora da A Sós é o maior do mercado e pode chegar a 50% do valor investido.</em>
-            </h5>
-           </div>
-           <div class="mt-3"></div>
-           <!-- <h3 class="text-mediumblue1 mt-3 mg-0">Ainda com dúvidas?</h3>
+            <div class="bg-alice duvidas-card" onclick="show_duvida(3)">
+                <h4 class="pergunta">
+                    <strong>QUAIS PRODUTOS AS CONSULTORAS A SÓS VENDEM?</strong>
+                </h4>
+                <h5 id="p3" class="resposta" style="display: none;">
+                    <em>As consultoras da A Sós oferecem uma ampla gama de produtos, incluindo vibros, lubrificantes,
+                        acessórios e uma variedade de produtos para o bem-estar íntimo.</em>
+                </h5>
+            </div>
+            <div class="bg-blue duvidas-card" onclick="show_duvida(4)">
+                <h4 class="pergunta">
+                    <strong>QUAIS OS BENEFÍCIOS DE SER UMA CONSULTORA A SÓS?</strong>
+                </h4>
+                <h5 id="p4" class="resposta" style="display: none;">
+                    <em>Os benefícios de ser uma consultora incluem a oportunidade de trabalhar com um produto inovador,
+                        flexibilidade de horário, treinamentos especializados, além da possibilidade de ganhos
+                        significativos com base nas vendas realizadas.</em>
+                </h5>
+            </div>
+            <div class="bg-alice duvidas-card" onclick="show_duvida(5)">
+                <h4 class="pergunta">
+                    <strong>COMO FAÇO PARA ADQUIRIR O KIT INICIAL OU VALE COMPRAS?</strong>
+                </h4>
+                <h5 id="p5" class="resposta" style="display: none;">
+                    <em>Para adquirir o kit inicial ou o vale-compras, é necessário entrar em contato com a equipe de
+                        especialistas em vendas da A Sós. O kit início é composto pelos produtos da empresa e o voucher
+                        é um vale-compras que você utiliza em seu primeiro pedido.</em>
+                </h5>
+            </div>
+            <div class="bg-blue duvidas-card" onclick="show_duvida('6')">
+                <h4 class="pergunta">
+                    <strong>QUAIS AS FORMAS DE PAGAMENTO DO KIT OU VALE COMPRAS?</strong>
+                </h4>
+                <h5 id="p6" class="resposta" style="display: none;">
+                    <em>As formas de pagamento para o kit inicial ou vale compras podem variar e geralmente incluem
+                        opções como cartão de crédito, boleto à vista ou pix.
+                        O pagamento à vista garante 5% de desconto nos pedidos regulares.</em>
+                </h5>
+            </div>
+            <div class="bg-alice duvidas-card" onclick="show_duvida('7')">
+                <h4 class="pergunta">
+                    <strong>QUAL É O MEU PERCENTUAL DE GANHOS?</strong>
+                </h4>
+                <h5 id="p7" class="resposta" style="display: none;">
+                    <em>O percentual de ganhos como consultora da A Sós é o maior do mercado e pode chegar a 50% do
+                        valor investido.</em>
+                </h5>
+            </div>
+            <div class="mt-3"></div>
+            <!-- <h3 class="text-mediumblue1 mt-3 mg-0">Ainda com dúvidas?</h3>
            <button class="bg-whatsapp  " onclick="generar_cel()">
             <div class="whatsapp-style">
                 <h2>Fale conosco</h2>
@@ -557,21 +500,92 @@
                 <h4 class="text-center">Faça parte do time de consultoras e revenda com a
                     maior lucratividade
                     do mercado.</h4>
+                <div>
                     <div>
-                        <div>
-                            <iframe class="video-youtube" src="https://www.youtube.com/embed/9En-seQNSuo" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                       
-                        
+                        <iframe class="video-youtube" src="https://www.youtube.com/embed/9En-seQNSuo" frameborder="0"
+                            allowfullscreen></iframe>
                     </div>
-                    <h3 class="text-convide mg-0">Chegou a hora de mudar a sua vida.</h3>
-                    <h5 class="mg-0">Junte-se ao time e torne-se uma consultora A sós</h5>
-                    <div class="mt-3"></div>
-                    <button class="btn-portada" onclick="generar_cadastro()">Cadastre-se <span class="text-mediumblue">Grátis</span> agora! </button>
-                   
+
+
+                </div>
+                <h3 class="text-convide mg-0">Chegou a hora de mudar a sua vida.</h3>
+                <h5 class="mg-0">Junte-se ao time e torne-se uma consultora A sós</h5>
+                <div class="mt-3"></div>
+                <button class="btn-portada" onclick="generar_cadastro()">Cadastre-se <span
+                        class="text-mediumblue">Grátis</span> agora! </button>
+
             </div>
         </div>
-       
+
+    </section>
+    <section class="linhas">
+        <h2 class="text-center">Nossas linhas <span class="text-mediumblue">fazem a diferença</span> </h2>
+        <div class="linhas-space">
+            <div class="card-linhas">
+                <div class="img-linhas">
+                    <img src="assets/biosex.png" alt="">
+
+                </div>
+                <div class="text-linhas">
+                    <h4>
+                        A linha de cosméticos sensuais que une prazer e sustentabilidade. Produtos naturais e orgânicos
+                        para uma experiência íntima em sintonia com seu corpo e a natureza.
+                    </h4>
+                </div>
+
+
+            </div>
+            <div class="card-linhas">
+                <div class="img-linhas">
+                    <img src="assets/dermosex.png" alt="">
+
+                </div>
+                <div class="text-linhas">
+                    <h4>
+                        A linha exclusiva de Dermocosméticos da A Sós para cuidados íntimos, promovendo qualidade de
+                        vida e prazer. Fórmulas inovadoras, adaptadas ao clima e pele brasileira.
+                    </h4>
+                </div>
+
+            </div>
+            <div class="card-linhas">
+                <div class="img-linhas">
+                    <img src="assets/prazer.png" alt="">
+
+                </div>
+                <div class="text-linhas">
+                    <h4>
+                        Descubra o prazer supremo com nossos acessórios de alta qualidade. Experimente sensações
+                        intensas e alcance o êxtase com discrição e segurança. Satisfação garantida.
+                    </h4>
+                </div>
+            </div>
+            <div class="card-linhas">
+                <div class="img-linhas">
+                    <img src="assets/sweetbive.png" alt="">
+
+                </div>
+                <div class="text-linhas">
+                    <h4>
+                        A linha divertida e alegre, composta por sugador, varinha mágica e estimulador de silicone. Com
+                        nomes fofos (Xodó, Dengo e Chamego) é a linha ideal para quem busca o primeiro acessório.
+                    </h4>
+                </div>
+            </div>
+
+        </div>
+        <div class="center-linhas">
+            <div>
+                <h2> <span class="text-mediumblue">Escolha seu futuro</span> hoje!</h2>
+            </div>
+
+            <div class="pos-btn">
+                <button class="btn-portada" onclick="generar_cadastro()">Quero ser uma consultora A sós </button>
+            </div>
+
+        </div>
+
+
     </section>
     <script src="script.js"></script>
 </body>

@@ -161,11 +161,11 @@ img {
     height: auto;
 }
 
-/* .img-portada-movil {
+.img-portada-movil {
     width: 100%;
     display: none;
     background-image: url(assets/principal.png);
-} */
+}
 
 .text-mediumblue {
     color: #c3bcf0;

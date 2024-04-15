@@ -14,6 +14,10 @@ function show_duvida(id_d){
   else
   {document.getElementById('p'+ id_d).style.display = 'none'}
 }
+function go_to_section(seccionId){
+  var seccion = document.getElementById(seccionId);
+  seccion.scrollIntoView();
+}
 
 window.onscroll = function () {
   
@@ -26,5 +30,6 @@ window.onscroll = function () {
   };
  
   }
+
 
 
