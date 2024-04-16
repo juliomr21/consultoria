@@ -2,7 +2,7 @@ function generar_cadastro() {
   let link_what = ['https://loja.produtosasos.com.br/precadastro/283582', 'https://loja.produtosasos.com.br/precadastro/202116']
   const id = new Date().getUTCSeconds() % 3;
   if (id == 0)
-    window.open(link_what[1]);
+     window.open(link_what[1]);
   else
     window.open(link_what[0]);
 }
