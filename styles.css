@@ -424,6 +424,9 @@ img {
 .special-plano {
     width: 88px;
     height: 88px;
+    h5{
+        font-size: 17px;
+    }
 }
 
 .duvidas-info {
