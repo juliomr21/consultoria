@@ -20,23 +20,28 @@ function go_to_section(seccionId) {
 }
 
 window.onscroll = function () {
- console.log(window.scrollY);
-  if (window.scrollY <= 550) {
+  var registro = document.getElementById('registro').offsetTop;
+  var planos = document.getElementById('planos').offsetTop;
+  var duvidas = document.getElementById('duvidas').offsetTop;
+  var extras = document.getElementById('extras').offsetTop;
+  var positionY =  window.innerHeight + window.scrollY;
+ 
+  if (positionY  <= registro) {
     document.getElementById('btn-whatsapp').style.display = 'none';
 
   } else {
     document.getElementById('btn-whatsapp').style.display = 'block';
-  };
-  if (window.scrollY >= 1300 && window.scrollY <= 4000)  {
+  }
+  if ((positionY >= planos && positionY < duvidas) || (positionY >= extras) )  {
     const btnWhatsapp = document.querySelector('.btn-whatsapp-o');
     btnWhatsapp.style.animationPlayState = 'running';
-}if((window.scrollY >= 4010 && window.scrollY <= 4800) || (window.scrollY < 1300)) {
+}else {
   const btnWhatsapp = document.querySelector('.btn-whatsapp-o');
   btnWhatsapp.style.animationPlayState = 'paused';
 }
-if (window.scrollY > 4800 )  {
-  const btnWhatsapp = document.querySelector('.btn-whatsapp-o');
-  btnWhatsapp.style.animationPlayState = 'running';
+if (positionY  >= registro) {
+  document.getElementById('v-youtube').style.display = 'block';
+
 }
  }
 

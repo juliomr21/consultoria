@@ -609,6 +609,9 @@ img {
   }
     }
 }
+.v-youtube{
+    display: none;
+}
 /* @keyframes movimento{
     0%{
         bottom: 13px;
