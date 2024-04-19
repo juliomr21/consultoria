@@ -225,17 +225,60 @@ img {
 }
 
 .card-ventage {
-    width: 256px;
+    /* width: 256px; */
+    width: 265px;
     /* background: #c3bcf0; */
     /* background-image: linear-gradient(to bottom, #a8a5fc,rgba(79, 100, 204, 0.98)); */
-    background: rgba(79, 100, 204, 0.98);
-    color: antiquewhite;
+    /* background: rgba(79, 100, 204, 0.98);
+    color: antiquewhite; */
+    background: transparent;
     padding: 1rem;
     text-align: center;
     border-radius: 6px;
     margin-bottom: 32px;
+    h4{
+        margin: 0;
+    }
 }
+.ventagen-inf{
+    margin-left: auto;
+  margin-right: auto;
+  /* background: black; */
+  /* background: rgba(79, 100, 204, 0.98);
+  color: antiquewhite; */
+  background: rgb(237, 237, 240);
+  color: #36335B;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  /* border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  padding-bottom: 5px; */
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  border: 2px solid #36335B;
+  /* border-bottom: 0; */
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+  border-radius: 50%;
+    margin-bottom: -16px;
+  z-index: 1;
+  position: relative;
+  margin-left: -16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+}
+.ventagen-text{
+    /* background: rgba(79, 100, 204, 0.98);
+    color: antiquewhite; */
+    background: rgb(237, 237, 240);
+  color: #36335B;
+  border-radius: 8px;
+  padding: 20px 8px;
+  border: 2px solid;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+}
 .ventagen-space {
     width: 100%;
     padding: 2rem 0;
@@ -609,6 +652,8 @@ img {
   width: 39%;
   h4{
     font-size: initial;
+    margin: 0;
+    padding-bottom: 4px;
   }
     }
 }
