@@ -670,6 +670,16 @@ footer{
         width: 100%;
         border-radius: 16px;
       }
+    .only-web{
+        background-image: url(assets/principal.png);
+
+    }
+    .text-principal{
+        width: 100%;
+    }
+    .img-portada{
+        display: none;
+    }
 }
 
 .v-youtube {
