@@ -24,9 +24,10 @@ window.onscroll = function () {
   var planos = document.getElementById('planos').offsetTop;
   var duvidas = document.getElementById('duvidas').offsetTop;
   var extras = document.getElementById('extras').offsetTop;
+  var footerT = document.getElementById('footer-term').offsetTop;
   var positionY =  window.innerHeight + window.scrollY;
  
-  if (positionY  <= registro) {
+  if (positionY  <= registro || positionY >= footerT ) {
     document.getElementById('btn-whatsapp').style.display = 'none';
 
   } else {
