@@ -651,6 +651,7 @@ footer{
     .footer-term{
         display: grid;
     }
+  
 }
 
 @media (min-width:451px) and (max-width: 915px) {
