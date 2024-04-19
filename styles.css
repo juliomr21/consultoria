@@ -76,6 +76,9 @@ footer{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    spam{
+        cursor: pointer;
+    }
 }
 .btn-whatsapp-o {
     position: fixed;
