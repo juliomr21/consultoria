@@ -685,3 +685,11 @@ footer{
 .v-youtube {
     display: none;
 }
+.footer-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    font-size: x-large; 
+
+}
