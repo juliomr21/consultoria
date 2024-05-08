@@ -500,7 +500,7 @@ footer{
     margin: 3px;
 }
 
-@media(max-width:450px) {
+@media(max-width:460px) {
     h1 {
         font-size: 4em;
     }
@@ -657,7 +657,7 @@ footer{
   
 }
 
-@media (min-width:451px) and (max-width: 915px) {
+@media (min-width:461px) and (max-width: 915px) {
 
     .duvidas-info {
         width: 100%;
