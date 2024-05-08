@@ -458,6 +458,11 @@ footer{
         display: none;
     }
 }
+.duv-duv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .only-web {
     display: block;

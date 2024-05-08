@@ -11,8 +11,16 @@ function generar_cel() {
   window.open(link_what);
 }
 function show_duvida(id_d) {
-  if (document.getElementById('p' + id_d).style.display == 'none') { document.getElementById('p' + id_d).style.display = 'block' }
-  else { document.getElementById('p' + id_d).style.display = 'none' }
+  if (document.getElementById('p' + id_d).style.display == 'none') {
+     document.getElementById('p' + id_d).style.display = 'block'
+     document.getElementById('pm' + id_d).style.display = 'block'
+     document.getElementById('pp' + id_d).style.display = 'none'
+    }
+  else { 
+    document.getElementById('p' + id_d).style.display = 'none'
+  document.getElementById('pm' + id_d).style.display = 'none'
+  document.getElementById('pp' + id_d).style.display = 'block'
+   }
 }
 function go_to_section(seccionId) {
   var seccion = document.getElementById(seccionId);
