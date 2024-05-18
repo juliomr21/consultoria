@@ -6,6 +6,10 @@ function generar_cadastro() {
   else
     window.open(link_what[0]);
 }
+function generar_cadastro_pago() {
+  let link_pago = 'https://loja.produtosasos.com.br/precadastro/283582'; 
+     window.open(link_pago);
+}
 function generar_cel() {
   let link_what = ' https://api.whatsapp.com/send?phone=559881921315';
   window.open(link_what);
