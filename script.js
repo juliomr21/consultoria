@@ -1,13 +1,12 @@
 function generar_cadastro() {
+  
   let link_what = ['https://loja.produtosasos.com.br/precadastro/283582', 'https://loja.produtosasos.com.br/precadastro/202116']
-  const id = new Date().getUTCSeconds() % 3;
-  if (id == 0)
-     window.open(link_what[1]);
-  else
-    window.open(link_what[0]);
+  //const id = new Date().getUTCSeconds() % 3;
+ 
+    window.open(link_what[1]);
 }
 function generar_cadastro_pago() {
-  let link_pago = 'https://loja.produtosasos.com.br/precadastro/283582'; 
+  let link_pago = 'https://loja.produtosasos.com.br/precadastro/202116'; 
      window.open(link_pago);
 }
 function generar_cel() {
